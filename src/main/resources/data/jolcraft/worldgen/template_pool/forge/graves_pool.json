@@ -1,0 +1,49 @@
+{
+  "name": "jolcraft:forge/graves_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/graves/pillar",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/graves/candles",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/graves/chest",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/graves/coins",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

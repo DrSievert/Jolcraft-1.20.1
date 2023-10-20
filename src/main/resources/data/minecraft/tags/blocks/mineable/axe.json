@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "jolcraft:gem_log",
+    "jolcraft:gem_wood",
+    "jolcraft:stripped_gem_log",
+    "jolcraft:stripped_gem_wood",
+    "jolcraft:gem_log_cross",
+    "jolcraft:gem_log_branch"
+  ]
+}

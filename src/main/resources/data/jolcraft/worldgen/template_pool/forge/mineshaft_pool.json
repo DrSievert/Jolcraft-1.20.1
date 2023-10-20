@@ -1,0 +1,31 @@
+{
+  "name": "jolcraft:forge/mineshaft_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/large/mineshaft/mineshaft_2",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/large/mineshaft/mineshaft_2_chest",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

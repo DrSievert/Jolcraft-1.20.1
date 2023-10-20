@@ -1,0 +1,33 @@
+{
+  "name": "jolcraft:forge/connector_side_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/forge_connector",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/forge_connector_collapsed",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/forge_side_room",
+        "processors": "jolcraft:forge/general"
+      }
+    }
+  ]
+}

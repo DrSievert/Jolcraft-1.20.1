@@ -1,0 +1,60 @@
+{
+  "name": "jolcraft:forge/ore_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/large/mineshaft/empty_ore",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/large/mineshaft/diamond_ore",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/large/mineshaft/emerald_ore",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/large/mineshaft/gold_ore",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/large/mineshaft/iron_ore",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/large/mineshaft/dwarven_metal_deepslate_ore",
+        "processors": "jolcraft:forge/final"
+      }
+    }
+  ]
+}

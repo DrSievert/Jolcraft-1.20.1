@@ -1,0 +1,40 @@
+{
+  "name": "jolcraft:forge/abandoned_deco_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/abandoned/block",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/abandoned/cobweb_1",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/abandoned/cobweb_2",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

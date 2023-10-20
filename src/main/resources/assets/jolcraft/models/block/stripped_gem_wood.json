@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jolcraft:block/stripped_gem_log",
+    "side": "jolcraft:block/stripped_gem_log"
+  }
+}

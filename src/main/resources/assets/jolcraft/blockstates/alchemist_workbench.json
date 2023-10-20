@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jolcraft:block/alchemist_workbench"
+    },
+    "facing=south": {
+      "model": "jolcraft:block/alchemist_workbench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jolcraft:block/alchemist_workbench",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "jolcraft:block/alchemist_workbench",
+      "y": 90
+    }
+  }
+}

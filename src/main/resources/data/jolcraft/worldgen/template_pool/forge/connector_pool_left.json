@@ -1,0 +1,25 @@
+{
+  "name": "jolcraft:forge/connector_pool_left",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "jolcraft:forge/forge_connector_left",
+        "processors": "jolcraft:forge/final",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/forge_side_room",
+        "processors": "jolcraft:forge/final"
+      }
+    }
+
+  ]
+}

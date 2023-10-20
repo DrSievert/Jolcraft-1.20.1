@@ -1,0 +1,33 @@
+{
+  "name": "jolcraft:forge/main_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/forge_main",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/forge_intersection",
+        "processors": "jolcraft:forge/general"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/main_rooms/tomb",
+        "processors": "jolcraft:forge/general"
+      }
+    }
+  ]
+}

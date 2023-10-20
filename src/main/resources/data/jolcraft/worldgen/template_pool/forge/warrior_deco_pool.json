@@ -1,0 +1,58 @@
+{
+  "name": "jolcraft:forge/warrior_deco_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/warrior/bar",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/warrior/cake",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/warrior/creeper",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/warrior/dragon",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/warrior/zombie",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

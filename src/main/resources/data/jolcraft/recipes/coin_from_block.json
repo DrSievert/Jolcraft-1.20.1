@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jolcraft:coin_block"
+    }
+  ],
+  "result": {
+    "item": "jolcraft:coin",
+    "count": 9
+  }
+}

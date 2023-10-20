@@ -1,0 +1,67 @@
+{
+  "name": "jolcraft:forge/artisan_deco_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/artisan/amethyst",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/artisan/crafting",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/artisan/diamond",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/artisan/flower",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/artisan/furnace",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/small/artisan/trapdoor",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

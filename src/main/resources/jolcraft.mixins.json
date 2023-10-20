@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.sievert.jolcraft.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "jolcraft.refmap.json",
+  "mixins": [
+    "structures.StructureProcessorAccessor",
+    "structures.StructureTemplateMixin"
+  ],
+  "client":[
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "work=false": { "model": "jolcraft:block/coin_press" },
+    "work=true": { "model": "jolcraft:block/coin_press_1" }
+  }
+}

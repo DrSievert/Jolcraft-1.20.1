@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:deepslate_tile_wall"
+    },
+    "I": {
+      "item": "minecraft:deepslate_tiles"
+    },
+    "X": {
+      "item": "jolcraft:coin_mould"
+    }
+  },
+  "pattern": [
+    "III",
+    "#X#",
+    "#I#"
+  ],
+  "result": {
+    "item": "jolcraft:coin_press"
+  }
+}

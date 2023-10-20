@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "jolcraft:dwarven_metal_deepslate_ore",
+    "jolcraft:raw_dwarven_metal_block",
+    "jolcraft:dwarven_metal_block",
+    "jolcraft:gem_log",
+    "jolcraft:gem_wood",
+    "jolcraft:stripped_gem_log",
+    "jolcraft:stripped_gem_wood",
+    "jolcraft:gem_log_cross",
+    "jolcraft:gem_log_branch",
+    "jolcraft:dwarven_gem_block",
+    "jolcraft:dwarven_gem_cluster"
+  ]
+}

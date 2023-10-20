@@ -1,0 +1,42 @@
+{
+  "name": "jolcraft:forge/final_lamp_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/lamps/gem_lamp",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/lamps/glowstone_lamp",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/lamps/lantern_lamp",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/final/lamps/vindicator_cage",
+        "processors": "jolcraft:forge/final"
+      }
+    }
+  ]
+}

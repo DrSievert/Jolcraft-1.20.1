@@ -1,0 +1,16 @@
+{
+  "name": "jolcraft:forge/connector_start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "jolcraft:forge/forge_start_connector",
+        "processors": "jolcraft:forge/final",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+
+  ]
+}

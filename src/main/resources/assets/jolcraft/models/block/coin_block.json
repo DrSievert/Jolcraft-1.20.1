@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "jolcraft:block/coin_block_top",
+    "east": "jolcraft:block/coin_block_side",
+    "north": "jolcraft:block/coin_block_side",
+    "particle": "jolcraft:block/coin_block_side",
+    "south": "jolcraft:block/coin_block_side",
+    "up": "jolcraft:block/coin_block_top",
+    "west": "jolcraft:block/coin_block_side"
+  }
+}

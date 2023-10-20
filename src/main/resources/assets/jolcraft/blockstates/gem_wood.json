@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "jolcraft:block/gem_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "jolcraft:block/gem_wood"
+    },
+    "axis=z": {
+      "model": "jolcraft:block/gem_wood_horizontal",
+      "x": 90
+    }
+  }
+}

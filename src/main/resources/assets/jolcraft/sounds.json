@@ -1,0 +1,98 @@
+{
+  "dwarf_idle": {
+    "sounds": [
+      {
+        "name": "jolcraft:entity/dwarf/idle1"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/idle2"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/idle3"
+      }
+    ],
+    "subtitle": "sounds.jolcraft.dwarf_idle"
+  },
+  "dwarf_hit": {
+    "sounds": [
+      {
+        "name": "jolcraft:entity/dwarf/hit1"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/hit2"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/hit3"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/hit4"
+      }
+    ],
+    "subtitle": "sounds.jolcraft.dwarf_hit"
+  },
+  "dwarf_death": {
+    "sounds": [
+      {
+        "name": "jolcraft:entity/dwarf/death"
+      }
+    ],
+    "subtitle": "sounds.jolcraft.dwarf_death"
+  },
+  "dwarf_haggle": {
+    "sounds": [
+      {
+        "name": "jolcraft:entity/dwarf/haggle1"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/haggle2"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/haggle3"
+      }
+    ],
+    "subtitle": "sounds.jolcraft.dwarf_haggle"
+  },
+  "dwarf_yes": {
+    "sounds": [
+      {
+        "name": "jolcraft:entity/dwarf/yes1"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/yes2"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/yes3"
+      }
+    ],
+    "subtitle": "sounds.jolcraft.dwarf_yes"
+  },
+  "dwarf_no": {
+    "sounds": [
+      {
+        "name": "jolcraft:entity/dwarf/no1"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/no2"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/no3"
+      }
+    ],
+    "subtitle": "sounds.jolcraft.dwarf_no"
+  },
+  "dwarf_miner": {
+    "sounds": [
+      {
+        "name": "jolcraft:entity/dwarf/pickaxe1"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/pickaxe2"
+      },
+      {
+        "name": "jolcraft:entity/dwarf/pickaxe3"
+      }
+    ],
+    "subtitle": "sounds.jolcraft.dwarf_miner"
+  }
+
+}

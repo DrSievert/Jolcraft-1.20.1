@@ -1,0 +1,42 @@
+{
+  "name": "jolcraft:forge/hallway_deco_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/hallway/chain_armor_stand",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/hallway/iron_armor_stand",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 19,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/hallway/gold_armor_stand",
+        "processors": "jolcraft:forge/final"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "jolcraft:forge/hallway/diamond_armor_stand",
+        "processors": "jolcraft:forge/final"
+      }
+    }
+  ]
+}

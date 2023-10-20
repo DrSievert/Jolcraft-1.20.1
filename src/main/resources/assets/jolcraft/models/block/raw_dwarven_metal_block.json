@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jolcraft:block/raw_dwarven_metal_block"
+  }
+}
