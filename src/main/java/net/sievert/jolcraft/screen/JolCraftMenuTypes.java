@@ -17,7 +17,6 @@ public class JolCraftMenuTypes {
     public static final RegistryObject<MenuType<CoinPressMenu>> COIN_PRESS_MENU =
             registerMenuType(CoinPressMenu::new, "coin_press_menu");
 
-
     private static <T extends AbstractContainerMenu> RegistryObject<MenuType<T>> registerMenuType(IContainerFactory<T> factory,
                                                                                                   String name) {
         return MENUS.register(name, () -> IForgeMenuType.create(factory));

@@ -19,13 +19,14 @@ public class CoinPressMenu extends AbstractContainerMenu {
     private final Level level;
     private final ContainerData data;
 
-    public CoinPressMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-        this(id, inv, inv.player.level().getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(2));
+
+    public CoinPressMenu(int pContainerId, Inventory inv, FriendlyByteBuf extraData) {
+        this(pContainerId, inv, inv.player.level().getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(2));
     }
 
     public CoinPressMenu(int id, Inventory inv, BlockEntity entity, ContainerData data) {
         super(JolCraftMenuTypes.COIN_PRESS_MENU.get(), id);
-        checkContainerSize(inv, 3);
+        checkContainerSize(inv, 2);
         blockEntity = (CoinPressBlockEntity) entity;
         this.level = inv.player.level();
         this.data = data;
@@ -34,7 +35,7 @@ public class CoinPressMenu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
-            this.addSlot(new SlotItemHandler(iItemHandler, 0, 12, 15));
+            //this.addSlot(new SlotItemHandler(iItemHandler, 0, 12, 15));
             this.addSlot(new SlotItemHandler(iItemHandler, 1, 86, 15));
             this.addSlot(new SlotItemHandler(iItemHandler, 2, 86, 60));
         });
@@ -70,7 +71,7 @@ public class CoinPressMenu extends AbstractContainerMenu {
     private static final int TE_INVENTORY_FIRST_SLOT_INDEX = VANILLA_FIRST_SLOT_INDEX + VANILLA_SLOT_COUNT;
 
     // THIS YOU HAVE TO DEFINE!
-    private static final int TE_INVENTORY_SLOT_COUNT = 3;  // must be the number of slots you have!
+    private static final int TE_INVENTORY_SLOT_COUNT = 2;  // must be the number of slots you have!
 
     @Override
     public ItemStack quickMoveStack(Player playerIn, int index) {

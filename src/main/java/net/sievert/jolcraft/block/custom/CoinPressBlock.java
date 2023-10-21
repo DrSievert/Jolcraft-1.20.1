@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraftforge.network.NetworkHooks;
 import net.sievert.jolcraft.entity.blockentites.CoinPressBlockEntity;
 import net.sievert.jolcraft.entity.blockentites.JolCraftBlockEntities;
 import org.jetbrains.annotations.NotNull;
@@ -68,17 +69,28 @@ public class CoinPressBlock extends BaseEntityBlock {
     }*/
 
     @Override
-    public @NotNull InteractionResult use(@NotNull BlockState pState, Level pLevel, @NotNull BlockPos pPos, @NotNull Player pPlayer, @NotNull InteractionHand pHand, @NotNull BlockHitResult pHit) {
-        BlockEntity be = pLevel.getBlockEntity(pPos);
-        if (!(be instanceof CoinPressBlockEntity blockEntity))
-            return InteractionResult.PASS;
+    public InteractionResult use(BlockState blockState, Level level, BlockPos blockPos, Player player, InteractionHand hand, BlockHitResult blockHitResult) {
 
-        if (pLevel.isClientSide())
+        // IF: Code is executing on logical client.
+        if(level.isClientSide) {
+            // Do nothing.
             return InteractionResult.SUCCESS;
+        }
 
-        // open screen
-        if(pPlayer instanceof ServerPlayer sPlayer) {
-            sPlayer.openMenu(blockEntity);
+        // Get block entity at the block location.
+        BlockEntity blockEntity = level.getBlockEntity(blockPos);
+
+        // IF: block entity is matching.
+        if (blockEntity instanceof CoinPressBlockEntity) {
+
+            // Cast player to ServerPlayer.
+            ServerPlayer serverPlayer = (ServerPlayer) player;
+
+            // Cast block entity to VikingChestBlockEntity.
+            CoinPressBlockEntity vikingChestBlockEntity = (CoinPressBlockEntity)blockEntity;
+
+            // Open menu.
+            NetworkHooks.openScreen(serverPlayer, vikingChestBlockEntity, blockPos);
         }
 
         return InteractionResult.CONSUME;
